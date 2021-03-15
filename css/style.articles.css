@@ -1,0 +1,237 @@
+/*  _________________ Bloc insta _________________ */
+
+.insta {
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.insta-container {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.insta-container article {
+  background-color: #fff;
+  width: 400px;
+  /* height: 700px; */
+  margin: 20px;
+  box-shadow: 0px 0px 3px 0px rgba(90, 90, 90, 0.5);
+  border-radius: 5px;
+}
+
+/*  _________________ Bloc Header _________________ */
+
+.insta-container-header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.insta-container-header-titre {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.insta-container-header-titre .titre-principal {
+  font-size: 20px;
+}
+
+.insta-container-header-titre .titre-secondaire {
+  font-size: 15px;
+  color: var(--couleur-principale);
+}
+
+.insta-container-header-titre {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.insta-container-header-img {
+  width: 50px;
+  height: 50px;
+  border: medium solid var(--couleur-principale);
+  border-radius: 50%;
+  background-image: url(../img/insta.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/*  _________________ Bloc Contenu _________________ */
+
+.insta-container-image img {
+  width: 100%;
+}
+
+.insta-container-texte {
+  font-size: 1rem;
+  padding: 10px;
+  font-family: var(--police-description);
+}
+
+.insta-container-texte p:first-child {
+  margin-bottom: 2rem;
+}
+
+.insta-container-texte .telephone {
+  font-size: 1rem;
+  color: var(--couleur-principale);
+  font-weight: 700;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.insta-container-texte .telephone i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.insta-container-texte .marque {
+  font-weight: 600;
+  color: var(--couleur-principale);
+}
+
+.insta-container-texte .marque::after {
+  font-weight: 700;
+  content: " \AE";
+}
+
+/*  _________________ Bloc Tarifs _________________ */
+
+.tarifs {
+  list-style: none;
+}
+
+.tarifs li {
+  margin-bottom: 30px;
+}
+
+.tarifs .libelle {
+  font-size: 1.3rem;
+}
+
+.tarifs .libelle::before {
+  /* content: "- "; */
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail .duree {
+}
+
+.detail .tarif {
+  color: var(--couleur-principale);
+}
+
+.info-supplementaire {
+  text-align: center;
+}
+
+/*  _________________ Bloc Adresse _________________ */
+
+.stations-metro {
+  text-align: center;
+}
+
+.stations-metro li {
+  padding: 10px;
+}
+
+.chip {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  border-radius: 50%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ligne-neuf {
+  background-color: #d5c900;
+}
+
+.ligne-une {
+  background-color: #fece00;
+}
+
+.ligne-deux {
+  background-color: #0065ae;
+}
+
+.ligne-six {
+  background-color: #84c28e;
+}
+
+.ligne-a {
+  background-color: #ec222c;
+}
+
+/*  _________________ Ordres post _________________ */
+
+#coronavirus {
+  order: 0;
+}
+#treatwell {
+  order: 0;
+}
+#endosphere {
+  order: 0;
+}
+#botan {
+  order: 1;
+}
+#luxom {
+  order: 2;
+}
+#lpg {
+  order: 3;
+}
+#microneedling {
+  order: 4;
+}
+#bloomea {
+  order: 5;
+}
+#massage-dos {
+  order: 6;
+}
+#epilations {
+  order: 7;
+}
+#epilations-classiques {
+  order: 8;
+}
+#epilations-formules {
+  order: 9;
+}
+#soins-visage {
+  order: 10;
+}
+#soins-minceur {
+  order: 11;
+}
+#beaute-regard {
+  order: 12;
+}
+#pass {
+  order: 13;
+}
+#adresse {
+  order: 14;
+}

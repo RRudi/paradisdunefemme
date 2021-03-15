@@ -1,0 +1,65 @@
+.logo {
+  display: none;
+}
+
+.entete {
+  justify-content:center;
+}
+
+.bloc-principal-conteneur {
+  /* Définition */
+  width: 100%;
+  padding: 0px 20px;
+}
+
+.bloc-principal-conteneur nav {
+  display: none;
+}
+
+.google {
+  width: 100%;
+  flex-direction: row;
+  padding: 0.3rem;
+}
+
+
+.google-logo {
+  width: 80px;
+  margin-right: 0rem;
+}
+
+.google-note {
+  font-size: 1.5rem;
+  margin-right: 0rem;
+}
+
+.google-star {
+  width: 100px;
+  margin-right: 0rem;
+}
+
+.testimonials-container h2 {
+  text-align: center;
+}
+
+.testimonials-elem {
+  flex-direction: column;
+}
+
+.testimonials-elem-text {
+  padding-bottom: 3rem;
+}
+
+.plus-avis {
+  text-align: center;
+}
+
+.plus-avis-img {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus-avis-img img {
+  margin-bottom: 1rem;
+}
