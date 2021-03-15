@@ -59,7 +59,7 @@
   height: 50px;
   border: medium solid var(--couleur-principale);
   border-radius: 50%;
-  background-image: url(../img/insta.jpg);
+  background-image: url(../img/autres/insta.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
