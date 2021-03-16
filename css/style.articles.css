@@ -105,6 +105,21 @@
   content: " \AE";
 }
 
+
+/*  _________________ Bloc Covid _________________ */
+
+.liste-covid-element {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem;
+}
+.liste-covid i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: var(--couleur-principale);
+}
+
 /*  _________________ Bloc Tarifs _________________ */
 
 .tarifs {
