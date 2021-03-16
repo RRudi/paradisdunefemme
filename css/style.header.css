@@ -80,8 +80,9 @@
 
 .bloc-principal-conteneur {
   /* Définition */
-  width: 600px;
+  max-width: 1000px;
   color: white;
+  padding: 1rem;
 
   /* FlexBox */
   display: flex;

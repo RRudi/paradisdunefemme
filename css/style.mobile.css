@@ -12,6 +12,10 @@
   padding: 0px 20px;
 }
 
+.message-glissant {
+  display: none;
+}
+
 .bloc-principal-conteneur nav {
   display: none;
 }
@@ -38,6 +42,10 @@
   margin-right: 0rem;
 }
 
+.testimonials-container h1 {
+  text-align: center;
+}
+
 .testimonials-container h2 {
   text-align: center;
 }
@@ -47,7 +55,7 @@
 }
 
 .testimonials-elem-text {
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
 }
 
 .plus-avis {

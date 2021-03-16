@@ -44,12 +44,7 @@
 }
 
 .testimonials-elem-text p {
-  margin-bottom: 1rem;
-}
-
-.testimonials-elem-text p span {
-  font-weight: 700;
-  text-decoration: underline;
+  /* margin-bottom: 1rem; */
 }
 
 .testimonials-elem-profil {
@@ -73,6 +68,7 @@
 }
 
 em {
+  font-size: 0.7rem;
   color: #555;
 }
 
