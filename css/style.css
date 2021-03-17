@@ -8,18 +8,19 @@
   --couleur-principale: #23a6d5;
   --police-description:  "inherit", sans-serif;
   --police-principal:  "Pacifico", cursive;
-  --police-secondaire:  "Montserrat", sans-serif;
+  --police-secondaire:  'Roboto', sans-serif;
 }
 
 a {
   text-decoration: none;
+  color: var(--couleur-principale);
 }
 
 .font-principal {
   font-family: var(--police-principal);
 }
 
-.font-montserrat {
+.font-secondaire {
   font-family: var(--police-secondaire);
 }
 
