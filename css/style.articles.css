@@ -78,6 +78,8 @@
   font-size: 1rem;
   padding: 10px;
   font-family: var(--police-description);
+  text-align: justify;
+  line-height: 1.5;
 }
 
 .insta-container-texte p:first-child {
@@ -108,19 +110,32 @@
   content: " \AE";
 }
 
+.separateur {
+  background-color: var(--couleur-principale);
+  width: 200px;
+  height: 2px;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
 
 /*  _________________ Bloc Covid _________________ */
 
 .liste-covid-element {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin: 1rem;
 }
-.liste-covid i {
-  font-size: 1.5rem;
-  margin-right: 1rem;
+.liste-covid-element i {
+  width: 50px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
   color: var(--couleur-principale);
+}
+.liste-covid-element p {
+  text-align: center;
 }
 
 /*  _________________ Bloc Tarifs _________________ */
@@ -130,11 +145,11 @@
 }
 
 .tarifs li {
-  margin-bottom: 30px;
+  margin-bottom: 1rem;
 }
 
 .tarifs .libelle {
-  font-size: 1.3rem;
+  /* font-size: 1.3rem; */
 }
 
 .tarifs .libelle::before {
@@ -157,6 +172,12 @@
   text-align: center;
 }
 
+.info-supplementaire::before {
+  content: "* ";
+  font-size: 1.4rem;
+  color: var(--couleur-principale);
+}
+
 /*  _________________ Bloc Adresse _________________ */
 
 .stations-metro {
@@ -171,7 +192,7 @@
   display: inline-block;
   width: 30px;
   height: 30px;
-  padding: 6px;
+  padding: 4px;
   border-radius: 50%;
   background-color: #333;
   color: white;
@@ -205,9 +226,6 @@
 #coronavirus {
   order: 0;
 }
-#treatwell {
-  order: 0;
-}
 #endosphere {
   order: 0;
 }
@@ -235,7 +253,7 @@
 #epilations-classiques {
   order: 8;
 }
-#epilations-formules {
+#beaute-regard {
   order: 9;
 }
 #soins-visage {
@@ -244,10 +262,10 @@
 #soins-minceur {
   order: 11;
 }
-#beaute-regard {
+#pass {
   order: 12;
 }
-#pass {
+#treatwell {
   order: 13;
 }
 #adresse {
