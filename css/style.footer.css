@@ -28,3 +28,7 @@
   background-color: #eee;
   text-align: center;
 }
+
+.copyright p {
+  margin-bottom: 1rem;
+}

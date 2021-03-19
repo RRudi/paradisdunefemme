@@ -16,6 +16,11 @@
   display: none;
 }
 
+
+.bloc-principal-conteneur .presentation {
+  margin-top: 0px;
+}
+
 .bloc-principal-conteneur nav {
   display: none;
 }
