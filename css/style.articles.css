@@ -1,6 +1,5 @@
 /*  _________________ Bloc insta _________________ */
 
-
 .insta {
   margin: auto;
   margin-top: 10px;
@@ -119,7 +118,6 @@
   margin-bottom: 2rem;
 }
 
-
 /*  _________________ Bloc Covid _________________ */
 
 .liste-covid-element {
@@ -227,10 +225,10 @@
 #coronavirus {
   order: 0;
 }
-#endosphere {
+#botan {
   order: 0;
 }
-#botan {
+#endosphere {
   order: 1;
 }
 #luxom {
