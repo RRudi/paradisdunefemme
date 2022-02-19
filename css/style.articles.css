@@ -237,9 +237,6 @@
 #spraybotan {
   order: 3;
 }
-#lpg {
-  order: 4;
-}
 #bloomea {
   order: 5;
 }
@@ -274,16 +271,15 @@
   order: 15;
 }
 /*
+#lpg {
+  order: 4;
+}
 #endosphere {
   order: 1;
 }
-*/
-/*
 #luxom {
   order: 2;
 }
-*/
-/*
 #microneedling {
   order: 4;
 }

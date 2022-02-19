@@ -6,4 +6,4 @@ Process pour Pusher (Via VSCode) :
 4. Dans le menu "Source Control", pusher le commit avec le bouton "V" en haut à droite
 
 Commit : 
-V2.1 : Description modification
+v2.1 : Description modification
