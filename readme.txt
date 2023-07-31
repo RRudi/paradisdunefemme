@@ -5,7 +5,9 @@ Process pour Pusher (Via VSCode) :
 3. Dans le menu "Source Control", ajouter un message au Commit
 4. Dans le menu "Source Control", pusher le commit avec le bouton "V" en haut à droite
 
-Process pour Deployer les fichiers (Via Netlify) : 
+(Déploiement automatique lor du Push sur Master)
+
+Process pour Deployer manuellement les fichiers (Via Netlify) : 
 
 1. Verifier que le Commit a bien été Pusher sur Master (https://github.com/RRudi/paradisdunefemme/commits/master)
 2. Puis se rendre sur Netlify, section 'Deploys' (https://app.netlify.com/sites/paradisdunefemme/deploys)
