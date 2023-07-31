@@ -234,26 +234,38 @@
   order: 0;
 }
 */
+#adresse {
+  order: 0;
+}
 #botanExplication {
-  order: 0;
+  order: 1;
+}
+#tarifsSprayBotan {
+  order: 1;
 }
 #botan {
-  order: 0;
+  order: 1;
 }
 #botan {
-  order: 0;
+  order: 1;
 }
 #sprayBotanVisage {
-  order: 1;
+  order: 2;
 }
 #sprayBotanAvantApres {
-  order: 1;
+  order: 2;
 }
 #treatwell {
-  order: 2;
+  order: 1;
 }
 #spraybotan {
   order: 3;
+}
+#sprayBotanCorps {
+  order: 6;
+}
+#sprayBotanJambes {
+  order: 7;
 }
 /*
 #lpg {
@@ -263,12 +275,6 @@
   order: 5;
 }
 */
-#sprayBotanCorps {
-  order: 6;
-}
-#sprayBotanJambes {
-  order: 7;
-}
 /*
 #massage-dos {
   order: 8;
@@ -292,9 +298,6 @@
   order: 14;
 }
 */
-#adresse {
-  order: 15;
-}
 /*
 #endosphere {
   order: 1;
