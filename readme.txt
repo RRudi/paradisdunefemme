@@ -5,7 +5,7 @@ Process pour Pusher (Via VSCode) :
 3. Dans le menu "Source Control", ajouter un message au Commit
 4. Dans le menu "Source Control", pusher le commit avec le bouton "V" en haut à droite
 
-(Déploiement automatique lor du Push sur Master)
+(Déploiement automatique lors du Push sur Master)
 
 Process pour Deployer manuellement les fichiers (Via Netlify) : 
 
