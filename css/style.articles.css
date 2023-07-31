@@ -221,10 +221,11 @@
 }
 
 /*  _________________ Ordres post _________________ */
-
+/*
 #coronavirus {
   order: 0;
 }
+*/
 #botanExplication {
   order: 0;
 }
@@ -246,18 +247,21 @@
 #spraybotan {
   order: 3;
 }
+/*
 #lpg {
   order: 4;
 }
 #bloomea {
   order: 5;
 }
+*/
 #sprayBotanCorps {
   order: 6;
 }
 #sprayBotanJambes {
   order: 7;
 }
+/*
 #massage-dos {
   order: 8;
 }
@@ -279,6 +283,7 @@
 #pass {
   order: 14;
 }
+*/
 #adresse {
   order: 15;
 }
