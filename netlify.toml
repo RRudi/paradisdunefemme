@@ -1,5 +1,6 @@
 [build]
   publish = "."
+  command = "VERSION=$(git rev-parse --short HEAD) && DATE=$(LC_TIME=fr_FR.UTF-8 date +'%d %B %Y' 2>/dev/null || date +'%d/%m/%Y') && sed -i \"s|__VERSION__|v${VERSION}|g\" index.html && sed -i \"s|__DATE__|${DATE}|g\" index.html"
 
 [[headers]]
   for = "/*"
